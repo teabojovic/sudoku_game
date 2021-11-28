@@ -30,8 +30,6 @@ for k in range(9):
             matrix[k][r] = list[9*k+r].get('value')
 
 def callback(var, entry):
-    i = 0
-    j = 0
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
             if mmatrix2[i][j] == entry:
