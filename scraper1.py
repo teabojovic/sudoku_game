@@ -30,7 +30,6 @@ for k in range(9):
             matrix[k][r] = list[9*k+r].get('value')
 
 def callback(var, entry):
-    o = var.get()
     i = 0
     j = 0
     for i in range(len(matrix)):
