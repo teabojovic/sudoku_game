@@ -1,2 +1,3 @@
 # sudoku_game
-Sudoku scraper
+Scraper from websudoku site
+Makes GUI with entries and buttons
