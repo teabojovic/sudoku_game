@@ -56,7 +56,7 @@ def make_grid():
             else:
                 vaar = StringVar()
                 vaar.set(matrix[row][column])
-                label = Label(root, bd = 1, justify = "center", width = 5, textvariable = vaar) 
+                label = Label(root, bg = "white", bd = 1, justify = "center", width = 5, textvariable = vaar) 
                 #makes label and puts number(from matrix) in it
                 label.grid(row = row, column = column, padx = 1, pady = 1, ipady = 10)
                 label.config(cursor = "plus", font = ('Centry 10'))
