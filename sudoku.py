@@ -38,10 +38,6 @@ def solution_matrixx():
     for i in range(9):
         for j in range(9):
             solution_matrix[i][j] = solution[9*i+j]
-    for i in range(9):
-        for j in range(9):
-            print(solution_matrix[i][j], end = " ")
-        print()
 def num_matrix():
     '''now we put numbers that we get using get_numbers() in matrix 9x9'''
     matrix9x9()
@@ -101,9 +97,5 @@ def sudoku_gui():
     root.configure(bg="black")
     make_grid()
     root.mainloop()
-    for i in range(9):
-        for j in range(9):
-            print(matrix[i][j], end = " ")
-        print()
 sudoku_gui()
 
